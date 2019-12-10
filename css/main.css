@@ -191,8 +191,7 @@ body {
     width: 330px;
     border: 2px solid #3c4955;
     font-weight: bold;
-    position: relative;
-    z-index: 10; }
+    position: relative; }
     .contacter-form__name::before {
       content: ' ';
       background-color: #3c4955;
@@ -308,7 +307,6 @@ body {
         font-size: 16px; }
     .contacter-form__message img {
       position: absolute;
-      z-index: 10;
       left: 12px;
       top: 11px; }
   .contacter-form__btn {
