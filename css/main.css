@@ -137,7 +137,8 @@ body {
         color: #fff; }
 
 .author {
-  background: url(../img/author-bg.png) no-repeat; }
+  background: url(../img/author-bg.png) no-repeat;
+  background-size: cover; }
   .author .container {
     min-height: 500px;
     display: flex;
@@ -476,6 +477,12 @@ body {
   .header .nav-menu__item a {
     display: block; }
   .nav-menu__item:hover {
-    background: #3c4955; } }
+    background: #3c4955; }
+  .projects .container .toggles {
+    margin: 50px 0 35px 0; }
+  .projects .container .card {
+    margin-bottom: 10px; }
+  .projects .container .cards .project {
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
