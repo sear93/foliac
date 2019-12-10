@@ -8,6 +8,7 @@
     <link href="img/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -120,7 +121,24 @@
         </section>
         <section class="contacter">
             <div class="container">
-
+                <h3 class="contacter-title">
+                    Me contacter
+                </h3>
+                <form action="#" method="POST" class="contacter-form">
+                    <div class="contacter-form__name">
+                        <input  id="name" type="text" placeholder="Votre nom">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <div class="contacter-form__email">
+                        <input id="email" type="email" placeholder="Votre email">
+                        <img src="img/mail.png" alt="">
+                    </div>
+                    <div class="contacter-form__message">
+                        <img src="img/crayon.png" alt="">
+                        <textarea name="" id="message" placeholder="Votre message"></textarea>
+                    </div>
+                    <button class="contacter-form__btn" type="submit" >Envoyer</button>
+                </form>
             </div>
         </section>
     </main>
